@@ -29,6 +29,15 @@ var PizzaStoreApp = angular.module('pizzaStoreApp', [
 ]);
 ```
 
+Apply the `bind-polymer` directive to your custom elements:
+
+```html
+<x-pizza bind-polymer state="{{pizzaState}}"></x-pizza>
+<pre ng-bind="pizzaState"></pre>
+```
+
+OR
+
 Apply the `bind-polymer-input` directive to your custom input elements:
 
 ```html
