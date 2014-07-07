@@ -6,12 +6,6 @@ Angular directive for *double* variable binding of Polymer attributes.
 Installation
 ------------
 
-Use bower to install: 
-
-```
-$ bower install angular-bind-polymer
-```
-
 Usage
 -----
 
