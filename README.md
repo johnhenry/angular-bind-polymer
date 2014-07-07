@@ -15,22 +15,13 @@ Source the directive per normal:
     <script src="bower_components/angular-bind-polymer/angular_bind_polymer.js"></script>
 ```
 
-Add `eee-c.angularBindPolymer` as dependency for your Angular application:
+Add `gr.polymerBind` as dependency for your Angular application:
 
 ```javascript
 var PizzaStoreApp = angular.module('pizzaStoreApp', [
-  'eee-c.angularBindPolymer'
+  'gr.polymerBind'
 ]);
 ```
-
-Apply the `bind-polymer` directive to your custom elements:
-
-```html
-<x-pizza bind-polymer state="{{pizzaState}}"></x-pizza>
-<pre ng-bind="pizzaState"></pre>
-```
-
-OR
 
 Apply the `bind-polymer-input` directive to your custom input elements:
 
