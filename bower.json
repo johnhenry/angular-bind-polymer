@@ -1,0 +1,23 @@
+{
+  "name": "BindToPolymer",
+  "main": "bindtopolymer.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/johnhenry/bindtopolymer",
+  "authors": [
+    "John Henry <john@iamjohnhenry.com>"
+  ],
+  "description": "Angular Directive for Bi-Directional Binding to Polymer Core and Paper Inputs",
+  "keywords": [
+    "bind",
+    "binding",
+    "polymer",
+    "two-way",
+    "inputs",
+    "core",
+    "paper",
+    "angular",
+    "directive",
+    "input"
+  ],
+  "license": "MIT"
+}
