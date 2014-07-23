@@ -1,7 +1,7 @@
 {
   "name": "BindToPolymer",
   "main": "bindtopolymer.js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/johnhenry/bindtopolymer",
   "authors": [
     "John Henry <john@iamjohnhenry.com>"
