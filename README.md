@@ -1,13 +1,22 @@
-angular-bind-polymer
-====================
+#Bind To Polymer
+Angular Directive for Bi-Directional Binding to Polymer core and paper inputs
 
-Angular directive for *double* variable binding of Polymer attributes.
+#Supported Tags
+##Polymer Core
+* core-input
 
-Installation
-------------
+##Polymer Paper
+* paper-input
+* paper-toggle-button
+* paper-checkbox
+* paper-radio-button
+* paper-slider
 
-Usage
------
+
+#Installation
+Coming Soon...
+
+#Usage
 
 Source the directive per normal:
 
@@ -15,7 +24,7 @@ Source the directive per normal:
     <script src="bower_components/angular-bind-polymer/bindToPolymer.js"></script>
 ```
 
-Add `gr.polymerBind` as dependency for your Angular application:
+Add `BindToPolymer` as dependency for your Angular application:
 
 ```javascript
 var PizzaStoreApp = angular.module('pizzaStoreApp', [
