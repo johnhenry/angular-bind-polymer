@@ -12,21 +12,21 @@ Usage
 Source the directive per normal:
 
 ```html
-    <script src="bower_components/angular-bind-polymer/angular_bind_polymer.js"></script>
+    <script src="bower_components/angular-bind-polymer/bindToPolymer.js"></script>
 ```
 
 Add `gr.polymerBind` as dependency for your Angular application:
 
 ```javascript
 var PizzaStoreApp = angular.module('pizzaStoreApp', [
-  'gr.polymerBind'
+  'BindToPolymer'
 ]);
 ```
 
-Apply the `bind-polymer-input` directive to your custom input elements:
+Apply the `ng-bind-to-polymer` directive to your custom input elements:
 
 ```html
-<core-input placeholder="Placeholder text here" bind-polymer-input="testing"></core-input>
+<core-input placeholder="Placeholder text here" ng-bind-to-polymer="testing"></core-input>
 <pre>{{testing}}</pre>
 ```
 
